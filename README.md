@@ -1,5 +1,13 @@
-# Download tool for CelebV-HQ
-## Usage:
+# CelebV-HQ: A Large-Scale Video Facial Attributes Dataset
+> Abstract: Large-scale datasets have played indispensable roles in the recent success of face generation/editing and significantly facilitated the advances of emerging research fields. However, the academic community still lacks a video dataset with diverse facial attribute annotations, which is crucial for the research on face-related videos. 
+In this work, we propose a large-scale, high-quality, and diverse video dataset with rich facial attribute annotations, named the High-Quality Celebrity Video Dataset (CelebV-HQ). CelebV-HQ contains 35,666 video clips with the resolution of 512x512 at least, involving 15,653 identities. All clips are labeled manually with 83 facial attributes, covering appearance, action, and emotion.
+We conduct a comprehensive analysis in terms of age, ethnicity, brightness stability, motion smoothness, head pose diversity, and data quality to demonstrate the diversity and temporal coherence of CelebV-HQ. Besides, its versatility and potential are validated on two representative tasks, i.e., unconditional video generation and video facial attribute editing.
+Furthermore, we envision the future potential of CelebV-HQ, as well as the new opportunities and challenges it would bring to related research directions. 
+
+Hao Zhu*, Wayne Wu*, Wentao Zhu, Liming Jiang, Siwei Tang, Li Zhang, Ziwei Liu, and Chen Change Loy (*Equal contribution)
+
+## Download
+### Usage:
 
 Prepare the environment: 
 ```bash
@@ -14,7 +22,7 @@ python download_tools.py
 ``` 
 
 
-## JSON DATA Structure:
+### JSON File Structure:
 JSON: 
 ```javascript
 {
