@@ -17,9 +17,12 @@ python download_tools.py
 ## JSON DATA Structure:
 JSON: 
 ```javascript
-{"mete_info": {
-"appearance_mapping": ["Blurry", "Male", "Young", ...],  // appearance attributes
-"action_mapping": ["blow", "chew", "close_eyes", ...]},  // action attributes
+{
+"mete_info": 
+    {
+        "appearance_mapping": ["Blurry", "Male", "Young", ...],  // appearance attributes
+        "action_mapping": ["blow", "chew", "close_eyes", ...]    // action attributes
+    },  
 
 "clips": 
 {
