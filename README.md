@@ -1,9 +1,17 @@
 # Download tool for CelebV-HQ
 ## Usage:
 
-prepare the tools: youtube-dl 
+Prepare the environment: 
+```bash
+pip install youtube_dl
+pip install opencv-python
+```
 
-RUN: `python download_tools.py` 
+Run script: 
+```bash
+# you can change the download folder in the code 
+python download_tools.py
+``` 
 
 
 ## JSON DATA Structure:
@@ -28,7 +36,7 @@ JSON:
          }, 
          "version": "v0.1"
            
-    }
+    },
     "_0tf2n3rlJU_0":  // clip 2 
     {
         "ytb_id": "_0tf2n3rlJU", 
