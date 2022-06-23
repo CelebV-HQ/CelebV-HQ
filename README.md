@@ -10,12 +10,12 @@ Furthermore, we envision the future potential of CelebV-HQ, as well as the new o
 [Hao Zhu*](www.zhuhaozh.xyz), 
 [Wayne Wu*](https://scholar.google.com/citations?&user=uWfZKz4AAAAJ), 
 [Liming Jiang](https://liming-jiang.com/),
-[Siwei Tang](mailti:tangsiwei@sensetime.com),
+[Siwei Tang](mailto:tangsiwei@sensetime.com),
 [Li Zhang](mailto:zhangli2@sensetime.com),
 [Ziwei Liu](https://liuziwei7.github.io/), 
-and [Chen Change Loy](https://www.mmlab-ntu.com/person/ccloy/)<br> (*Equal contribution)
+and [Chen Change Loy](https://www.mmlab-ntu.com/person/ccloy/)<br> <small>(*Equal contribution)</small>
 
-**[[Demo Video]](#)** | **[[Project Page]](https://celebv-hq.github.io/)** | **[[Paper]](#)**
+**[Demo Video](https://www.youtube.com/watch?v=8eNUwi34Xp8)** | **[Project Page](https://celebv-hq.github.io/)** | **[Paper (Coming soon)](#)**
 
 # Updates
 - [21/6/2022] The codebase and project page are created.
@@ -58,7 +58,7 @@ python download_tools.py
 ## JSON File Structure:
 ```javascript
 {
-"mete_info": 
+"meta_info": 
     {
         "appearance_mapping": ["Blurry", "Male", "Young", ...],  // appearance attributes
         "action_mapping": ["blow", "chew", "close_eyes", ...]    // action attributes
