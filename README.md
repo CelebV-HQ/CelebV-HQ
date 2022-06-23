@@ -8,7 +8,7 @@ Furthermore, we envision the future potential of CelebV-HQ, as well as the new o
 
 
 [Hao Zhu*](www.zhuhaozh.xyz), 
-[Wayne Wu*](https://scholar.google.com/citations?hl=en&authuser=1&user=uWfZKz4AAAAJ), 
+[Wayne Wu*](https://scholar.google.com/citations?&user=uWfZKz4AAAAJ), 
 [Liming Jiang](https://liming-jiang.com/),
 [Siwei Tang](mailti:tangsiwei@sensetime.com),
 [Li Zhang](mailto:zhangli2@sensetime.com),
@@ -19,6 +19,11 @@ and [Chen Change Loy](https://www.mmlab-ntu.com/person/ccloy/)<br> (*Equal contr
 
 # Updates
 - [21/6/2022] The codebase and project page are created.
+
+# TODO
+- [x] Data download scripts.
+- [ ] Inference codes 
+- [ ] Pretrained models of unconditional video generation 
 
 # Statistics
 The distributions of each attribute. CelebV-HQ has a diverse distribution on each attribute category. Overall, CelebV-HQ contains diverse facial attributes and natural distributions, bringing new opportu -unities and challenges to the community.
