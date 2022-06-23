@@ -9,6 +9,7 @@ Furthermore, we envision the future potential of CelebV-HQ, as well as the new o
 
 [Hao Zhu*](www.zhuhaozh.xyz), 
 [Wayne Wu*](https://scholar.google.com/citations?&user=uWfZKz4AAAAJ), 
+[Wentao Zhu](https://wentao.live), 
 [Liming Jiang](https://liming-jiang.com/),
 [Siwei Tang](mailto:tangsiwei@sensetime.com),
 [Li Zhang](mailto:zhangli2@sensetime.com),
