@@ -16,7 +16,7 @@ Furthermore, we envision the future potential of CelebV-HQ, as well as the new o
 [Ziwei Liu](https://liuziwei7.github.io/), 
 and [Chen Change Loy](https://www.mmlab-ntu.com/person/ccloy/)<br> <small>(*Equal contribution)</small>
 
-**[Demo Video](https://www.youtube.com/watch?v=8eNUwi34Xp8)** | **[Project Page](https://celebv-hq.github.io/)** | **Paper (Coming soon)**
+**[Demo Video](https://www.youtube.com/watch?v=Y0uxlUW4sW0)** | **[Project Page](https://celebv-hq.github.io/)** | **Paper (Coming soon)**
 
 # Updates
 - [21/6/2022] The codebase and project page are created.
