@@ -110,8 +110,8 @@ python download_tools.py
 ```bibtex
 @article{celebvhq,
       title={CelebV-HQ: A Large-scale Video Facial Attributes Dataset},
-      author={Zhu, Hao and Zhu, Wentao and Jiang, Liming and Tang, Siwei and 
-        Zhang, Li and Liu, Ziwei and Loy, Chen Change and Wu, Wayne},
+      author={Zhu, Hao and Wu, Wayne and Zhu, Wentao and Jiang, Liming and Tang, Siwei and 
+        Zhang, Li and Liu, Ziwei and Loy, Chen Change},
       journal={arxiv}
     }
 ```
