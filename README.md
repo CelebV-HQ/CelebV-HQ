@@ -1,4 +1,4 @@
-## CelebV-HQ: A Large-Scale Video Facial Attributes Dataset (ECCV 2022)
+# CelebV-HQ: A Large-Scale Video Facial Attributes Dataset (ECCV 2022)
 <img src="./assets/teaser.png" width="96%" height="96%">
 
 **CelebV-HQ: A Large-Scale Video Facial Attributes Dataset**<br>
@@ -107,6 +107,8 @@ python download_tools.py
 
 
 # Citation
+If you find this work useful for your research, please consider citing our paper:
+
 ```bibtex
 @inproceedings{zhu2022celebvhq,
   title={{CelebV-HQ}: A Large-scale Video Facial Attributes Dataset},
