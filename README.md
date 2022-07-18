@@ -1,33 +1,33 @@
-# CelebV-HQ: A Large-Scale Video Facial Attributes Dataset
+## CelebV-HQ: A Large-Scale Video Facial Attributes Dataset (ECCV 2022)
 <img src="./assets/teaser.png" width="96%" height="96%">
+
+**CelebV-HQ: A Large-Scale Video Facial Attributes Dataset**<br>
+[Hao Zhu](www.zhuhaozh.xyz)\*, 
+[Wayne Wu](https://wywu.github.io/)\*, 
+[Wentao Zhu](https://wentao.live), 
+[Liming Jiang](https://liming-jiang.com/),
+[Siwei Tang](mailto:tangsiwei@sensetime.com),
+[Li Zhang](mailto:zhangli2@sensetime.com),
+[Ziwei Liu](https://liuziwei7.github.io/), 
+and [Chen Change Loy](https://www.mmlab-ntu.com/person/ccloy/)<br>
+In ECCV 2022. <small>(*Equal contribution)</small><br>
+**[Demo Video](https://www.youtube.com/watch?v=Y0uxlUW4sW0)** | **[Project Page](https://celebv-hq.github.io/)** | **Paper (Coming soon)**
 
 > Abstract: Large-scale datasets have played indispensable roles in the recent success of face generation/editing and significantly facilitated the advances of emerging research fields. However, the academic community still lacks a video dataset with diverse facial attribute annotations, which is crucial for the research on face-related videos. 
 In this work, we propose a large-scale, high-quality, and diverse video dataset with rich facial attribute annotations, named the High-Quality Celebrity Video Dataset (CelebV-HQ). CelebV-HQ contains 35,666 video clips with the resolution of 512x512 at least, involving 15,653 identities. All clips are labeled manually with 83 facial attributes, covering appearance, action, and emotion.
 We conduct a comprehensive analysis in terms of age, ethnicity, brightness stability, motion smoothness, head pose diversity, and data quality to demonstrate the diversity and temporal coherence of CelebV-HQ. Besides, its versatility and potential are validated on two representative tasks, i.e., unconditional video generation and video facial attribute editing.
 Furthermore, we envision the future potential of CelebV-HQ, as well as the new opportunities and challenges it would bring to related research directions. 
 
-
-[Hao Zhu*](www.zhuhaozh.xyz), 
-[Wayne Wu*](https://scholar.google.com/citations?&user=uWfZKz4AAAAJ), 
-[Wentao Zhu](https://wentao.live), 
-[Liming Jiang](https://liming-jiang.com/),
-[Siwei Tang](mailto:tangsiwei@sensetime.com),
-[Li Zhang](mailto:zhangli2@sensetime.com),
-[Ziwei Liu](https://liuziwei7.github.io/), 
-and [Chen Change Loy](https://www.mmlab-ntu.com/person/ccloy/)<br> <small>(*Equal contribution)</small>
-
-**[Demo Video](https://www.youtube.com/watch?v=Y0uxlUW4sW0)** | **[Project Page](https://celebv-hq.github.io/)** | **Paper (Coming soon)**
-
 # Updates
 - [21/6/2022] The codebase and project page are created.
 
 # TODO
-- [x] Data download scripts.
-- [ ] Inference codes 
+- [x] Data download scripts
+- [ ] Inference code
 - [ ] Pretrained models of unconditional video generation 
 
 # Statistics
-The distributions of each attribute. CelebV-HQ has a diverse distribution on each attribute category. Overall, CelebV-HQ contains diverse facial attributes and natural distributions, bringing new opportu -unities and challenges to the community.
+The distributions of each attribute. CelebV-HQ has a diverse distribution on each attribute category. Overall, CelebV-HQ contains diverse facial attributes and natural distributions, bringing new opportunities and challenges to the community.
 
 <img src="./assets/statistic.png" width="96%" height="96%">
 
@@ -108,13 +108,14 @@ python download_tools.py
 
 # Citation
 ```bibtex
-@article{celebvhq,
-      title={CelebV-HQ: A Large-scale Video Facial Attributes Dataset},
-      author={Zhu, Hao and Wu, Wayne and Zhu, Wentao and Jiang, Liming and Tang, Siwei and 
-        Zhang, Li and Liu, Ziwei and Loy, Chen Change},
-      journal={arxiv}
-    }
+@inproceedings{zhu2022celebvhq,
+  title={{CelebV-HQ}: A Large-scale Video Facial Attributes Dataset},
+  author={Zhu, Hao and Wu, Wayne and Zhu, Wentao and Jiang, Liming and Tang, Siwei and Zhang, Li and Liu, Ziwei and Loy, Chen Change},
+  booktitle={ECCV},
+  year={2022}
+}
 ```
+
 # Acknowlegement
-We sincerely thank Zongcai Sun for his great help in source data preparation and the download tool development.
+We sincerely thank Zongcai Sun for his help with source data preparation and the download tool development.
 
