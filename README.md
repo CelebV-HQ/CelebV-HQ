@@ -20,10 +20,10 @@ We conduct a comprehensive analysis in terms of age, ethnicity, brightness stabi
 Furthermore, we envision the future potential of CelebV-HQ, as well as the new opportunities and challenges it would bring to related research directions. 
 
 
-# Updates
+## Updates
 - [21/6/2022] The codebase and project page are created.
 
-# TODO
+## TODO
 - [x] Data download scripts
 - [ ] Inference code
 - [ ] Pretrained models of unconditional video generation 
@@ -34,7 +34,7 @@ Furthermore, we envision the future potential of CelebV-HQ, as well as the new o
 
 
 
-# Statistics
+## Statistics
 https://user-images.githubusercontent.com/10545746/179714392-4289e67c-884f-4a45-aa1d-b01b2ae6ee3f.mp4
 
 The distributions of each attribute. CelebV-HQ has a diverse distribution on each attribute category. Overall, CelebV-HQ contains diverse facial attributes and natural distributions, bringing new opportunities and challenges to the community.
@@ -42,14 +42,14 @@ The distributions of each attribute. CelebV-HQ has a diverse distribution on eac
 <img src="./assets/statistic.png" width="96%" height="96%">
 
 
-# Agreement
+## Agreement
 - The CelebV-HQ dataset is available for non-commercial research purposes only.
 - All videos of the CelebV-HQ dataset are obtained from the Internet which are not property of SenseTime Research. The SenseTime Research is not responsible for the content nor the meaning of these videos.
 - You agree not to reproduce, duplicate, copy, sell, trade, resell or exploit for any commercial purposes, any portion of the videos and any portion of derived data.
 - You agree not to further copy, publish or distribute any portion of the CelebV-HQ dataset. Except, for internal use at a single site within the same organization it is allowed to make copies of the dataset.
 
-# Download
-## Usage:
+## Download
+### Usage:
 
 
 Prepare the environment: 
@@ -65,7 +65,7 @@ python download_tools.py
 ``` 
 
 
-## JSON File Structure:
+### JSON File Structure:
 ```javascript
 {
 "meta_info": 
@@ -113,19 +113,19 @@ python download_tools.py
 
 }
 ```
-# Baselines
-## Unconditional Video Generation
+## Baselines
+### Unconditional Video Generation
 To train other baselines, we used their original implementations in our paper:
 - [VideoGPT](https://github.com/wilson1yan/VideoGPT)
 - [MoCoGAN-HD](https://github.com/snap-research/MoCoGAN-HD)
 - [DIGAN](https://github.com/sihyun-yu/digan)
 - [StyleGAN-V](https://github.com/universome/stylegan-v)
 
-## Facial Atttribute Editing
+### Facial Attribute Editing
 - [StarGAN-v2](https://github.com/clovaai/stargan-v2)
 - [MUNIT](https://github.com/NVlabs/MUNIT)
 
-# Citation
+## Citation
 If you find this work useful for your research, please consider citing our paper:
 
 ```bibtex
@@ -137,7 +137,7 @@ If you find this work useful for your research, please consider citing our paper
 }
 ```
 
-# Acknowlegement
+## Acknowledgement
 We sincerely thank Zongcai Sun for his help with source data preparation and the download tool development.
 
 
