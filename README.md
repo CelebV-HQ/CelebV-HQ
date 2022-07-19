@@ -125,6 +125,10 @@ To train other baselines, we used their original implementations in our paper:
 - [StarGAN-v2](https://github.com/clovaai/stargan-v2)
 - [MUNIT](https://github.com/NVlabs/MUNIT)
 
+
+## Related Works
+* (ECCV 2022) **StyleGAN-Human: A Data-Centric Odyssey of Human Generation**, Jianglin Fu et al. [[Paper](https://arxiv.org/pdf/2204.11823.pdf)], [[Project Page](https://stylegan-human.github.io/)], [[Dataset](https://github.com/stylegan-human/StyleGAN-Human)]
+
 ## Citation
 If you find this work useful for your research, please consider citing our paper:
 
