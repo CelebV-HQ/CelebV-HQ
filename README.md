@@ -1,6 +1,6 @@
 # CelebV-HQ: A Large-Scale Video Facial Attributes Dataset (ECCV 2022)
 <img src="./assets/teaser.png" width="96%" height="96%">
-
+ 
 
 **CelebV-HQ: A Large-Scale Video Facial Attributes Dataset**<br>
 [Hao Zhu](https://www.zhuhaozh.xyz)\*, 
@@ -29,8 +29,14 @@ Furthermore, we envision the future potential of CelebV-HQ, as well as the new o
 
 
 
+
+
+
+
+
+
 # Statistics
-https://user-images.githubusercontent.com/10545746/179702111-83606a75-d422-4d98-b76f-8d80a9fd8a60.mp4
+https://user-images.githubusercontent.com/10545746/179710392-a574e906-c114-4732-adff-957813519ef9.mp4
 
 The distributions of each attribute. CelebV-HQ has a diverse distribution on each attribute category. Overall, CelebV-HQ contains diverse facial attributes and natural distributions, bringing new opportunities and challenges to the community.
 
@@ -109,8 +115,8 @@ python download_tools.py
 
 }
 ```
-
-# Training unconditional video baselines
+# Baselines
+## Unconditional video generation
 To train other baselines, we used their original implementations in our paper:
 - [VideoGPT](https://github.com/wilson1yan/VideoGPT)
 - [MoCoGAN-HD](https://github.com/snap-research/MoCoGAN-HD)
