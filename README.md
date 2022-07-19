@@ -19,6 +19,7 @@ In this work, we propose a large-scale, high-quality, and diverse video dataset 
 We conduct a comprehensive analysis in terms of age, ethnicity, brightness stability, motion smoothness, head pose diversity, and data quality to demonstrate the diversity and temporal coherence of CelebV-HQ. Besides, its versatility and potential are validated on two representative tasks, i.e., unconditional video generation and video facial attribute editing.
 Furthermore, we envision the future potential of CelebV-HQ, as well as the new opportunities and challenges it would bring to related research directions. 
 
+
 # Updates
 - [21/6/2022] The codebase and project page are created.
 
@@ -33,8 +34,6 @@ Furthermore, we envision the future potential of CelebV-HQ, as well as the new o
 
 
 
-
-
 # Statistics
 https://user-images.githubusercontent.com/10545746/179714392-4289e67c-884f-4a45-aa1d-b01b2ae6ee3f.mp4
 
@@ -42,7 +41,6 @@ The distributions of each attribute. CelebV-HQ has a diverse distribution on eac
 
 <img src="./assets/statistic.png" width="96%" height="96%">
 
-  
 
 # Agreement
 - The CelebV-HQ dataset is available for non-commercial research purposes only.
@@ -65,9 +63,6 @@ Run script:
 # you can change the download folder in the code 
 python download_tools.py
 ``` 
-
-
-
 
 
 ## JSON File Structure:
@@ -119,13 +114,16 @@ python download_tools.py
 }
 ```
 # Baselines
-## Unconditional video generation
+## Unconditional Video Generation
 To train other baselines, we used their original implementations in our paper:
 - [VideoGPT](https://github.com/wilson1yan/VideoGPT)
 - [MoCoGAN-HD](https://github.com/snap-research/MoCoGAN-HD)
 - [DIGAN](https://github.com/sihyun-yu/digan)
 - [StyleGAN-V](https://github.com/universome/stylegan-v)
 
+## Facial Atttribute Editing
+- [StarGAN-v2](https://github.com/clovaai/stargan-v2)
+- [MUNIT](https://github.com/NVlabs/MUNIT)
 
 # Citation
 If you find this work useful for your research, please consider citing our paper:
