@@ -36,7 +36,7 @@ Furthermore, we envision the future potential of CelebV-HQ, as well as the new o
 
 
 # Statistics
-https://user-images.githubusercontent.com/10545746/179710392-a574e906-c114-4732-adff-957813519ef9.mp4
+https://user-images.githubusercontent.com/10545746/179714392-4289e67c-884f-4a45-aa1d-b01b2ae6ee3f.mp4
 
 The distributions of each attribute. CelebV-HQ has a diverse distribution on each attribute category. Overall, CelebV-HQ contains diverse facial attributes and natural distributions, bringing new opportunities and challenges to the community.
 
@@ -65,6 +65,9 @@ Run script:
 # you can change the download folder in the code 
 python download_tools.py
 ``` 
+
+
+
 
 
 ## JSON File Structure:
