@@ -2,7 +2,7 @@
 <img src="./assets/teaser.png" width="96%" height="96%">
 
 **CelebV-HQ: A Large-Scale Video Facial Attributes Dataset**<br>
-[Hao Zhu](www.zhuhaozh.xyz)\*, 
+[Hao Zhu](https://www.zhuhaozh.xyz)\*, 
 [Wayne Wu](https://wywu.github.io/)\*, 
 [Wentao Zhu](https://wentao.live), 
 [Liming Jiang](https://liming-jiang.com/),
