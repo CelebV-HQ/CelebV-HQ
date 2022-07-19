@@ -1,6 +1,7 @@
 # CelebV-HQ: A Large-Scale Video Facial Attributes Dataset (ECCV 2022)
 <img src="./assets/teaser.png" width="96%" height="96%">
 
+
 **CelebV-HQ: A Large-Scale Video Facial Attributes Dataset**<br>
 [Hao Zhu](https://www.zhuhaozh.xyz)\*, 
 [Wayne Wu](https://wywu.github.io/)\*, 
@@ -26,7 +27,11 @@ Furthermore, we envision the future potential of CelebV-HQ, as well as the new o
 - [ ] Inference code
 - [ ] Pretrained models of unconditional video generation 
 
+
+
 # Statistics
+https://user-images.githubusercontent.com/10545746/179702111-83606a75-d422-4d98-b76f-8d80a9fd8a60.mp4
+
 The distributions of each attribute. CelebV-HQ has a diverse distribution on each attribute category. Overall, CelebV-HQ contains diverse facial attributes and natural distributions, bringing new opportunities and challenges to the community.
 
 <img src="./assets/statistic.png" width="96%" height="96%">
@@ -105,6 +110,13 @@ python download_tools.py
 }
 ```
 
+# Training unconditional video baselines
+To train other baselines, we used their original implementations in our paper:
+- [VideoGPT](https://github.com/wilson1yan/VideoGPT)
+- [MoCoGAN-HD](https://github.com/snap-research/MoCoGAN-HD)
+- [DIGAN](https://github.com/sihyun-yu/digan)
+- [StyleGAN-V](https://github.com/universome/stylegan-v)
+
 
 # Citation
 If you find this work useful for your research, please consider citing our paper:
@@ -120,4 +132,6 @@ If you find this work useful for your research, please consider citing our paper
 
 # Acknowlegement
 We sincerely thank Zongcai Sun for his help with source data preparation and the download tool development.
+
+
 
