@@ -43,7 +43,7 @@ def process_ffmpeg(raw_vid_path, save_folder, save_vid_name,
 
     def secs_to_timestr(secs):
         hrs = secs // (60 * 60)
-        min = secs // 60
+        min = (secs - hrs * 3600) // 60
         sec = secs % 60
         end = (secs - int(secs)) * 100
         return "{:02d}:{:02d}:{:02d}.{:02d}".format(int(hrs), int(min),
