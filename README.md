@@ -12,7 +12,7 @@
 [Ziwei Liu](https://liuziwei7.github.io/), 
 and [Chen Change Loy](https://www.mmlab-ntu.com/person/ccloy/)<br>
 In ECCV 2022. <small>(*Equal contribution)</small><br>
-**[Demo Video](https://www.youtube.com/watch?v=Y0uxlUW4sW0)** | **[Project Page](https://celebv-hq.github.io/)** | **Paper (Coming soon)** | **Annotations (Coming soon)**
+**[Demo Video](https://www.youtube.com/watch?v=Y0uxlUW4sW0)** | **[Project Page](https://celebv-hq.github.io/)** | **[Paper](https://arxiv.org/abs/2207.12393)** | **Annotations (Coming soon)**
 
 > Abstract: Large-scale datasets have played indispensable roles in the recent success of face generation/editing and significantly facilitated the advances of emerging research fields. However, the academic community still lacks a video dataset with diverse facial attribute annotations, which is crucial for the research on face-related videos. 
 In this work, we propose a large-scale, high-quality, and diverse video dataset with rich facial attribute annotations, named the High-Quality Celebrity Video Dataset (CelebV-HQ). CelebV-HQ contains 35,666 video clips with the resolution of 512x512 at least, involving 15,653 identities. All clips are labeled manually with 83 facial attributes, covering appearance, action, and emotion.
