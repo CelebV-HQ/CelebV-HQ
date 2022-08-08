@@ -21,7 +21,7 @@ Furthermore, we envision the future potential of CelebV-HQ, as well as the new o
 
 
 ## Updates
-- [8/8/2022] Data annotations are released. Please check it in file 'celebvhq_info.json'.
+- [08/08/2022] Data annotations are released. Please check it in file 'celebvhq_info.json'.
 - [26/07/2022] The paper is released on ArXiv.
 - [25/07/2022] The download and processing tools for the dataset is released. Use them to construct your CelebV-HQ! :sparkles:
 - [21/6/2022] The codebase and project page are created.
