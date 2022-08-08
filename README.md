@@ -21,13 +21,14 @@ Furthermore, we envision the future potential of CelebV-HQ, as well as the new o
 
 
 ## Updates
+- [8/8/2022] Data annotations are released. Please check it in file 'celebvhq_info.json'.
 - [26/07/2022] The paper is released on ArXiv.
 - [25/07/2022] The download and processing tools for the dataset is released. Use them to construct your CelebV-HQ! :sparkles:
 - [21/6/2022] The codebase and project page are created.
 
 ## TODO
 - [x] Data download and processing tools.
-- [ ] Data annotations.
+- [x] Data annotations.
 - [ ] Inference code of unconditional video generation
 - [ ] Pretrained models of unconditional video generation
 
@@ -82,7 +83,7 @@ python download_and_process.py
         "ytb_id": "M2Ohb0FAaJU",                                   // youtube id
         "duration": {"start_sec": 81.62, "end_sec": 86.17},        // start and end times in the original video
         "bbox": {"top": 0.0, "bottom": 0.8815, "left": 0.1964, "right": 0.6922},  // bounding box
-        "attributes":                                              // attributes information (TBD)
+        "attributes":                                              // attributes information 
         {
             "appearance": [0, 0, 1, ...],                          // same order as the "appearance_mapping"
             "action": [0, 0, 0, ...],                              // same order as the "action_mapping"
