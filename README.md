@@ -51,6 +51,13 @@ The distributions of each attribute. CelebV-HQ has a diverse distribution on eac
 - You agree not to further copy, publish or distribute any portion of the CelebV-HQ dataset. Except, for internal use at a single site within the same organization it is allowed to make copies of the dataset.
 
 ## Download
+
+
+### TL;DR
+
+This **[issue](https://github.com/CelebV-HQ/CelebV-HQ/issues/8)** is helpful.
+
+
 ### Usage:
 
 
