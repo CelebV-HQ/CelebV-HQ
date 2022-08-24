@@ -53,7 +53,7 @@ The distributions of each attribute. CelebV-HQ has a diverse distribution on eac
 ## Download
 
 
-### TL;DR
+### TL;DR:
 
 This **[issue](https://github.com/CelebV-HQ/CelebV-HQ/issues/8)** is helpful.
 
