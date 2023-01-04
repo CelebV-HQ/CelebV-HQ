@@ -135,7 +135,8 @@ To train other baselines, we used their original implementations in our paper:
 - [MUNIT](https://github.com/NVlabs/MUNIT)
 
 
-## Related Works
+## Related Work
+* (Tech. Report 2023) **CelebV-Text: A Large-Scale Facial Text-Video Dataset**, Jianhui Yu et al. [[Paper](https://arxiv.org/pdf/0000.00000.pdf)], [[Project Page](https://celebv-text.github.io/)], [[Dataset](https://github.com/CelebV-Text/CelebV-Text)]
 * (ECCV 2022) **StyleGAN-Human: A Data-Centric Odyssey of Human Generation**, Jianglin Fu et al. [[Paper](https://arxiv.org/pdf/2204.11823.pdf)], [[Project Page](https://stylegan-human.github.io/)], [[Dataset](https://github.com/stylegan-human/StyleGAN-Human)]
 
 ## Citation
